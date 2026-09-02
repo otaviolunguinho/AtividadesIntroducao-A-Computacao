@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(imageshambur/ChatGPT\ Image\ 30\ de\ ago.\ de\ 2026\,\ 21_29_20.png);
+    background-size: auto;
+}
+
+
+header{
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 37%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(207, 184, 141, 0.705);
+    transition: 1s;
+}
+
+
+
+.prato1{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(207, 184, 141, 0.705);
+    transition: 1s;
+}
+
+.prato2{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(207, 184, 141, 0.705);
+    transition: 1s;
+}
+
+.prato3{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(207, 184, 141, 0.705);
+    transition: 1s;
+}
+
+.prato1, .prato2, .prato3{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.25) 0px -12px 30px, rgba(0, 0, 0, 0.25) 0px 4px 6px, rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.25) 0px -3px 5px;
+}
+
+header:hover{
+    background-color: rgba(70, 36, 21, 0.671);
+    color: wheat;
+    a{
+        color: wheat;
+    }
+}
+
+a:hover{
+        background-color: rgba(70, 36, 21, 0.671);
+        color: wheat;
+    }
+
+img{
+    width: 250px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);   
+}
+
+.prato1:hover, .prato2:hover, .prato3:hover{
+    background-color: rgba(70, 36, 21, 0.671);
+    color: wheat;
+
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: 20px;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.849);
+}

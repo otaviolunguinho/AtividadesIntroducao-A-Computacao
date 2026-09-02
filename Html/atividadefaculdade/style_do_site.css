@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+body{
+    background-color: black;
+    background-image: url(https://www.bing.com/th/id/OIP.meZHzSisUMM4Vy-OfNyIjwHaE7?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2);
+    background-size: auto;
+}
+
+
+
+.topo_da_pagina{
+    margin: auto ;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.856);
+    transition: 1s;
+    color: white
+}
+
+.prato_do_dia{
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.849);
+    transition: 1s;
+}
+
+.horario_funcionamento{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+    transition: 1s;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: 20px;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    transition: 1s;
+}
+
+.horario_funcionamento:hover, .prato_do_dia:hover, .topo_da_pagina:hover{
+    background-color: white;
+    color: black;
+    a{
+        color: black;
+        border: 2px solid rgb(238, 0, 0);
+    }
+}
+
+a:hover{
+    background-color: gold;
+    color: brown;
+}
+
+
+#contatos {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+    transition: 1s;
+}
+
+#contatos:hover{
+    background-color: white;
+    color: black;
+}
+
+.topo_da_pagina, .horario_funcionamento, #contatos, .prato_do_dia, footer{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(253, 252, 252, 0.09) 0px -3px 5px;
+}
