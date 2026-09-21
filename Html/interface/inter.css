@@ -5,6 +5,9 @@
 
 }
 
+body{
+    background-color: gray;
+}
 
 h1{
     text-align: center;
@@ -23,28 +26,10 @@ img{
     display: block;
 }
 
-.Ingredientes{
-    margin-left: 400px;
-    margin-top: 20px;
-    padding: 20px;
-    padding-left: 20px;
-    margin-bottom: 10px;
-
-
-}
-
 li{
     margin-bottom: 15px;
 }
 
-.Modo_de_Preparo{
-    margin-left: 400px;
-    margin-top: 20px;
-    padding: 20px;
-    padding-left: 20px;
-    margin-bottom: 15px;
-
-}
 
 ul {
     display: flex;
@@ -54,4 +39,15 @@ ul {
 
 h2{
     color: rgb(66, 34, 11);
+}
+
+main{
+    background-color: white;
+    width: 794px;          
+    min-height: 1123px;    
+    margin: -60px auto 40px; 
+    padding: 40px 60px;
+    position: relative;    
+    z-index: 1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
