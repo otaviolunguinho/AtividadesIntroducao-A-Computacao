@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container1{
+    display: grid;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container1 input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.container1 select{
+    padding: 5px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.container1 button{
+    display: flex;
+    cursor: pointer;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 1s;
+}
+
+
+.termos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.termos input{
+    transform: scale(1.5);
+}
+
+
+
+.container1 button:hover{
+    transform: scale(1.15);
+    color: white;
+    background-color: black;
+}
